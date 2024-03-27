@@ -25,7 +25,7 @@ const BusSchedulesResults = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="/pamukkale-logo.png"
+                  image={ticket.image}
                   alt="pamukkale"
                   sx={{ float: "left", marginRight: "1rem" }}
                 />

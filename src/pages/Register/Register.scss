@@ -1,0 +1,19 @@
+.registerInputs {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 650px;
+
+  div:first-child {
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .MuiTextField-root{
+    width:100%;
+    margin-bottom:10px;
+  }
+}

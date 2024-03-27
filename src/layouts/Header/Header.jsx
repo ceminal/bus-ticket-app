@@ -13,13 +13,13 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">Yardım</a>
+              <Link to="/FAQ">Yardım</Link>
             </li>
             <li>
-              <a href="#">Üye Ol</a>
+              <Link to="/Register">Üye Ol</Link>
             </li>
             <li>
-              <a href="#">Giriş Yap</a>
+              <Link to="/Login">Giriş Yap</Link>
             </li>
           </ul>
         </nav>

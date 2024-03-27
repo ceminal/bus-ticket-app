@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  height:600px;
 
   ul {
     list-style: none;
@@ -40,6 +41,9 @@
   .cardPrice {
     margin-top: 10px;
     float: right;
+  }
+  .MuiPaper-root{
+    width:100%;
   }
 
   //   .MuiCardContent-root{
