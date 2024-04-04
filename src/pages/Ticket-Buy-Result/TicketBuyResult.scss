@@ -1,0 +1,17 @@
+.ticket-buy-result {
+  background-color: #ffffff;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 62px;
+    color: #1E1E1E;
+  }
+}
