@@ -15,15 +15,15 @@ const Footer = () => {
     <footer>
       <div className="top">
         <div className="footer-brand">
-          <img className="logo" src="public/logo.png" alt="Logo" />
+          <img className="logo" src="logo.png" alt="Logo" />
           <p>
             Mobil uygulamaızı indirerek bilet rezervasyon işlemlerinizi çok daha
             hızlı yapabilir ve kampanyalarımızdan haberdar olabilirsiniz!
           </p>
 
           <div className="mobil-store">
-            <img src="public/appstore-icon.png" alt="App Store Icon" />
-            <img src="public/googleplay-icon.png" alt="Google Play Icon" />
+            <img src="appstore-icon.png" alt="App Store Icon" />
+            <img src="googleplay-icon.png" alt="Google Play Icon" />
           </div>
 
           <div className="bulten">
@@ -59,11 +59,11 @@ const Footer = () => {
 
           <div className="licence">
             <div className="tursab">
-              <img src="public/tursab.png" alt="Tursab Icon" />
+              <img src="tursab.png" alt="Tursab Icon" />
               <p>Tripenia Bilişim A.Ş. TURSAB 12345</p>
             </div>
             <div className="iata">
-              <img src="public/iata.png" alt="Iata Icon" />
+              <img src="iata.png" alt="Iata Icon" />
               <p>TRNCOM Seyahat Acentası IATA: 12345</p>
             </div>
           </div>
