@@ -1,0 +1,15 @@
+.box {
+  margin: 0 auto;
+  width: 500px;
+  padding: 2rem;
+
+  button {
+    display: block;
+    margin-left: auto;
+    padding: 7px 14px;
+    background: rgba(0, 209, 255, 0.5);
+    opacity: 0.9;
+    border-radius: 4px;
+    color: #fff;
+  }
+}
