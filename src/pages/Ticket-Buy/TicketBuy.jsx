@@ -24,10 +24,10 @@ function BookingForm() {
           <TextField 
             label="Phone Number" 
             fullWidth 
-            defaultValue="+90 (506) 123 - 45 - 67" 
+            defaultValue="+90 (506) 123-45-67" 
             margin="normal"
             InputProps={{
-              startAdornment: <InputAdornment position="start">+90</InputAdornment>,
+              startAdornment: <InputAdornment position="start">TR</InputAdornment>,
             }}
           />
         </Grid>
