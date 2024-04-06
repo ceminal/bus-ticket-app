@@ -72,7 +72,7 @@ export default function CustomizedAccordions() {
           <Typography>
           Biletlerinizi, satın alma işleminizden sonra "Biletlerim" bölümünden iptal edebilir veya değiştirebilirsiniz. İptal ve değişiklik koşulları bilet türüne göre değişiklik gösterebilir. Detaylı bilgi için "İptal ve Değişiklik Kuralları" sayfamızı ziyaret ediniz.
           </Typography>
-        </AccordionDetails>
+        </AccordionDetails>  
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">

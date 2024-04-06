@@ -5,6 +5,7 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Faq from "./pages/Faq/Faq"
 
+
 function App() {
   return (
     <Router>

@@ -36,4 +36,20 @@ header {
     align-items: center;
     margin: 0 auto;
   }
+
+  .loggedIn {
+    display: flex;
+    align-items: center;
+  
+    span {
+      margin-right: 10px;
+    }
+  
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #333;
+    }
+  }
 }

@@ -7,7 +7,7 @@ import HomePageSlider from "./_partials/HomePageSlider";
 const HomePage = () => {
   return (
     <Fragment>
-      <Header />
+      <Header/>
         <HomePageBanner />
         <HomePageSlider />
       <Footer />
