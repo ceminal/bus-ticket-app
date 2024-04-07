@@ -6,7 +6,7 @@ import Accordion from "./Accordion";
 const Faq = () => {
   return (
     <div>
-      <Header />
+      <Header backgroundColor="#222222"/>
       <Accordion />
       <Footer />
     </div>

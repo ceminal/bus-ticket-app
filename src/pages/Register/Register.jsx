@@ -7,7 +7,7 @@ import "./Register.scss";
 const Register = () => {
   return (
     <>
-      <Header />
+      <Header backgroundColor="#222222"/>
       <div className="registerInputs">
         <div>
           <h4>REGISTER</h4>

@@ -9,7 +9,11 @@ import { toast } from "react-toastify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useDispatch, useSelector } from "react-redux";
-import { login,selectLoggedInUser, logout } from "../../redux-toolkit/slices/userSlice";
+import {
+  login,
+  selectLoggedInUser,
+  logout,
+} from "../../redux-toolkit/slices/userSlice";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -32,7 +36,7 @@ const Login = () => {
       } else {
         if (user.password === password) {
           toast.success("Success");
-          dispatch(login(user.username)); 
+          dispatch(login(user.username));
         } else {
           toast.error("Please Enter Valid Credentials");
         }
@@ -60,8 +64,8 @@ const Login = () => {
 
   return (
     <>
-    <ToastContainer/>
-      <Header />
+      <ToastContainer />
+      <Header backgroundColor="#222222" />
       <div className="loginInputs">
         {loggedInUser ? (
           <div>

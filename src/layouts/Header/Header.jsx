@@ -2,10 +2,13 @@ import "./Header.scss";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
-import { selectLoggedInUser, logout } from "../../redux-toolkit/slices/userSlice";
+import {
+  selectLoggedInUser,
+  logout,
+} from "../../redux-toolkit/slices/userSlice";
 import { useDispatch } from "react-redux";
 
-const Header = () => {
+const Header = ({ backgroundColor }) => {
   const loggedInUser = useSelector(selectLoggedInUser);
   const dispatch = useDispatch();
 
@@ -14,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className="absolute top-0 left-0 right-0 p-4">
+    <header style={{backgroundColor: backgroundColor}}  className="absolute top-0 left-0 right-0 p-4">
       <div className="navMenu">
         <div>
           <Link to="/" className="logo">
@@ -31,9 +34,9 @@ const Header = () => {
             </li>
             <li>
               {loggedInUser ? (
-                <div className="loggedIn">
-                  <span>{loggedInUser}</span>           
-                  <button onClick={handleLogout}>Logout</button>
+                <div className="loggedInUser">
+                  <Link>{loggedInUser}</Link>
+                  <Link onClick={handleLogout}>Logout</Link>
                 </div>
               ) : (
                 <Link to="/Login">Giriş Yap</Link>
@@ -50,4 +53,5 @@ export default Header;
 
 Header.propTypes = {
   loggedInUsername: PropTypes.string,
+  backgroundColor: PropTypes.string
 };

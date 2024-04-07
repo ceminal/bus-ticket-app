@@ -15,7 +15,7 @@ const BusSchedulesResults = () => {
 
   return (
     <>
-      <Header />
+      <Header backgroundColor="#222222"/>
       <div className="ticketResults">
         <h2>Biletler</h2>
         {filteredTickets.map((ticket, index) => (

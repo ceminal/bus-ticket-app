@@ -5,7 +5,7 @@ import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import { IoIosArrowForward } from "react-icons/io";
-
+import Header from "../../layouts/Header/Header";
 import "./Accordion.scss";
 
 const Accordion = styled((props) => (
